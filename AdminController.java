@@ -88,6 +88,8 @@ public class AdminController {
 		session.removeAttribute("admin");
 
 		return "redirect:/login/login.jsp";
+		
+		if(true){}
 
 	}
 
